@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root id="AnchorPane" prefHeight="200.0" prefWidth="350.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mavericksoft.qepi.cliente.WindowFxmlNodeController">
+   <children>
+      <Label fx:id="labelSala" layoutX="14.0" layoutY="10.0" prefHeight="27.0" prefWidth="189.0" text="Tatooine">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaOut" editable="false" focusTraversable="false" layoutX="14.0" layoutY="48.0" prefHeight="106.0" prefWidth="322.0" />
+      <TextField fx:id="textFieldIn" layoutX="14.0" layoutY="163.0" onKeyPressed="#handletextFieldInSend" prefHeight="27.0" prefWidth="322.0" style="-fx-text-box-border: transparent; -fx-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-padding: 1 3 1 3;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Separator layoutX="14.0" layoutY="189.0" prefHeight="5.0" prefWidth="322.0" />
+      <Button fx:id="buttonAgregarUsuario" layoutX="311.0" layoutY="12.0" mnemonicParsing="false" onAction="#handleButtonAgregarUsuarioSala" onMouseClicked="#handleButtonAddUserChat" text="+" />
+   </children>
+</fx:root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Qepi.jnlp">
+  <information>
+    <title>Qepi</title>
+    <vendor>lsegovia</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Qepi.jar" size="236634" download="eager" />
+    <jar href="lib\dom4j-full.jar" size="513409" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Qepi" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.mavericksoft.qepi.cliente.Client"  name="Qepi" />
+  <update check="always"/>
+</jnlp>

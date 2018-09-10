@@ -1,0 +1,64 @@
+javafx toggle button example
+https://docs.oracle.com/javafx/2/ui_controls/toggle-button.htm
+
+Ejemplo getResourceAsStream()
+http://www.thinkplexx.com/learn/howto/java/system/java-resource-loading-explained-absolute-and-relative-names-difference-between-classloader-and-class-resource-loading
+
+http://www.thinkplexx.com/learn/howto/java/system/java-resource-loading-explained-absolute-and-relative-names-difference-between-classloader-and-class-resource-loading
+
+java oracle switch
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
+javafx toggle button ejemplo
+http://tutorials.jenkov.com/javafx/togglebutton.html
+
+toggle button arm example
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/toggle-button.htm
+
+javafx combobox example
+http://tutorials.jenkov.com/javafx/combobox.html
+
+javafx observablelist example
+https://docs.oracle.com/javafx/2/collections/jfxpub-collections.htm
+
+javafx combobox editable
+https://stackoverflow.com/questions/37923502/how-to-get-entered-value-in-editable-combobox-in-javafx
+
+javafx fxmldocument icon
+https://docs.oracle.com/javafx/2/get_started/fxml_tutorial.htm
+
+javafx icon
+http://java-buddy.blogspot.com/2013/11/javafx-example-how-to-set-icon-of.html
+
+ventanas javafx
+http://acodigo.blogspot.com/2014/09/introduccion-javafx-8.html
+http://acodigo.blogspot.com/2014/10/javafx-8-administrar-ventanas.html
+
+javafx stage disable iconified
+https://stackoverflow.com/questions/8341305/how-to-remove-javafx-stage-buttons-minimize-maximize-close
+
+javafx modal windows
+https://stackoverflow.com/questions/10486731/how-to-create-a-modal-window-in-javafx-2-1
+
+javafx textflow example
+https://www.tutorialspoint.com/javafx/layout_panes_textflow.htm
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/text-settings.htm
+https://docs.oracle.com/javase/8/javafx/user-interface-tutorial/text-effects.htm
+https://stackoverflow.com/questions/37436595/how-to-use-textflow-from-fxml
+
+javafx textarea salto de linea
+https://www.lawebdelprogramador.com/foros/Java/937289-Salto-de-linea-del-TextArea.html
+TextAreaEnvia.setLineWrap(true); 
+TextAreaEnvia.setWrapStyleWord(true);
+
+https://www.lawebdelprogramador.com/foros/Java/815407-jtextarea-y-salto-de-linea.html
+// Darle un tamaño en filas/columnas en el constructor. 
+JTextArea areaTexto = new JTextArea(25,80); 
+// Para que se partan automáticamente las líneas al llegar al final 
+areaTexto.setLineWrap(true); 
+// Para que el partido se haga respetando las palabras. Sólo se parte la 
+// línea en los espacios entre palabras. 
+areaTexto.setWrapStyleWord(true); 
+
+Ejemplo de chat java
+https://programandoointentandolo.com/2013/04/ejemplo-chat-en-java-usando-sockets-e-hilos.html
